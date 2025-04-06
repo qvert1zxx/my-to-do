@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To-do</title>
+</head>
+
+<body>
+    <h1>Обычные заметачки</h1>
+    <div class="form-task">
+        <input class="task-form" type="text" name="task" id="task-form" placeholder="Введите ваш текст...">
+        <input class="task-confirm" type="button" id="confirm-btn" value="Готово">
+    </div>
+    <div class="tasks" id="tasks">
+        <h2>Заметки:</h2>
+        <div class="task">
+            <p class="task-value">тествая заметка</p>
+            <div class="btn-task">
+                <input type="button" class="task-done-btn button" value="">
+                <input type="button" class="del-task button" value="">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
